@@ -53,7 +53,7 @@ const uiConfig = {
     "theme": "quartz", // switch between themes, default set to vapor, select from https://github.com/ParveenBhadooOfficial/Google-Drive-Index#themes
     "version": "2.0.18", // don't touch this one. get latest code using generator at https://generator.driveindex.ga
     // If you're using Image then set to true, If you want text then set it to false
-    "logo_image": , // true if you're using image link in next option.
+    "logo_image": false, // true if you're using image link in next option.
     "logo_height": "", // only if logo_image is true
     "logo_width": "", // only if logo_image is true
     "favicon": "https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Google-Drive-Index@2.0.17-alpha.7/images/favicon.ico",
