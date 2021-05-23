@@ -14,7 +14,7 @@ const serviceaccounts = [
 const randomserviceaccount = serviceaccounts[Math.floor(Math.random()*serviceaccounts.length)];
 
 const authConfig = {
-    "siteName": "NETFLIX", // Website name
+    "siteName": "KETHAN", // Website name
     "client_id": "202264815644.apps.googleusercontent.com", // Client id from Google Cloud Console
     "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ", // Client Secret from Google Cloud Console
     "refresh_token": "1//0djvE8suc51QLCgYIARAAGA0SNwF-L9IrBq6nQGeFPFDVBU_CjYbssO-djmjqpoAnavOOGRm3aofmv8VC8VmxnTANqVQ-3KjAYkU", // Authorize token
@@ -29,7 +29,7 @@ const authConfig = {
           "id": "104QC8kflN-pA2m1eY2GZjYwf2gKopIZd",
           "name": "NETFLIX",
           "protect_file_link": false,
-          "auth": {"edith":"jarvis"} /* Remove double slash before "auth" to activate id password protection */
+          "auth": {"kethan":"kethan"} /* Remove double slash before "auth" to activate id password protection */
       },
     ]};
 
@@ -58,7 +58,7 @@ const uiConfig = {
     "logo_width": "", // only if logo_image is true
     "favicon": "https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Google-Drive-Index@2.0.17-alpha.7/images/favicon.ico",
     // if logo is true then link otherwise just text for name
-    "logo_link_name": "Edith SeedBox",
+    "logo_link_name": "NETFLIX",
     "fixed_header": true, // If you want the footer to be flexible or fixed.
     "header_padding": "60", // Value 60 for fixed header, Value 20 for flexible header. Required to be changed accordingly in some themes.
     "fixed_footer": false, // If you want the footer to be flexible or fixed.
@@ -74,7 +74,7 @@ const uiConfig = {
     "file_count_alert_class": "alert alert-secondary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "contact_link": "https://telegram.dog/Telegram", // Link to Contact Button on Menu
     "copyright_year": "2021", // year of copyright, can be anything like 2015 - 2020 or just 2020
-    "company_name": "Tony Stark Cloud", // Name next to copyright
+    "company_name": "Sravan Cloud", // Name next to copyright
     "company_link": "https://telegram.dog/Telegram", // link of copyright name
     "credit": false, // Set this to true to give us credit
     "display_size": true, // Set this to false to hide display file size
